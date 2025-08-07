@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gruping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgrey;
+            margin: 0px;
+            text-align: justify;
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+
+        h1 {
+            box-shadow: inset 0px 0px 4px 3px rgba(0, 0, 0, 0.425);
+            border-radius: 6px;
+            
+        }
+
+        nav {
+            background-color: rgb(124, 123, 123);
+            border-radius: 5px;
+            box-shadow: 0px 0px 4px 3px rgba(0, 0, 0, 0.966);
+        }
+
+        nav > a {
+            text-decoration: solid;            color: white;
+            font-weight: bold;
+            border-radius: 5px;
+            padding-right: 20px;
+            padding-left: 5px;
+        }
+
+        nav > a:hover {
+            color: rgb(197, 44, 44);
+            text-decoration: underline;
+        }
+
+        nav > a:active {
+            color: rgb(10, 169, 243);
+            text-decoration: none;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px 0px;
+            box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.425);
+        }
+
+        article {
+            background-color: lightgrey;
+        }
+
+        article > aside {
+            background-color: rgb(143, 142, 142);
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+        div#bola {
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="https://www.google.com" target="_blank">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes Política Tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto excepturi natus minus ipsam similique repudiandae asperiores, eligendi harum laboriosam non et esse labore animi sapiente ab consequatur facere aliquid corporis?</p>
+                <aside>
+                    <p>Artigo escrito por Andrey TotmaN</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Dev ToT</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>

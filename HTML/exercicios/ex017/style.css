@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, serif, sans-serif, monospace;
+    /*
+    Medias absolutas:
+    cm, mm, in, px, pt, pc...
+
+    Medias relativas:
+    em, ex, rem, vw, vh, %...
+    16px geralmente = 1em
+    */
+    font-size: 1em;
+    font-weight: bolder;
+    /*Parâmetros da font-weight: lighter, normal, bold, bolder*/
+    font-style: italic;
+    text-decoration: underline;
+
+}
+
+h1 {
+    /*shirthand font
+    ao invés disso:
+    font-family: "work sans", sans-serif;
+    font-weight: bolder;
+    font-size: 3em;
+    font-style: italic;
+
+    pode ser apenas assim:
+    font: italic bolder 3em "work sans", sans-serif;
+
+    ordem deve ser mantida: font-style > font-weight > font-size > font-family
+    */
+    font: italic bold 3em "work sans", sans-serif;
+}
