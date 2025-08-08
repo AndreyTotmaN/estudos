@@ -89,7 +89,8 @@ nav a:hover {
 
 main {
     background-color: white;
-    max-width: 800px;
+    min-width: 300px;
+    max-width: 1000px;
     margin: auto;
     padding-top: 1em;
     padding-left: 1em;
@@ -99,13 +100,18 @@ main {
     border-bottom-right-radius: 1em;
 }
 
+main img {
+    width: 100%;
+
+}
+
 main picture {
     text-align: center;
     display: block;
     padding-bottom: 1em; 
 }
 
-#img-pequena {
+main #img-pequena {
     max-width: 350px;
     display: block;
     margin: auto;
