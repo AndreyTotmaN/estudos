@@ -3,20 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo fixo de tela</title>
     <style>
         body {
             height: 100vh;
+
+            /* Shorthand - background
+
+            disso;
+
             background-color: black;
             background-image: url('wallpaper002.jpg');
             background-position: center center;
-            background-repeat: repeat-y;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+
+            para isso;
+
+            color > image > position > repeat > size > attachment
+            */
+
+            background: black url('wallpaper002.jpg') center center no-repeat fixed;
             background-size: cover;
         }
         main {
-            background-color: white;
+            background-color: rgba(255, 255, 255, 0.74);
             margin: auto;
-            width: 400px;
+            max-width: 400px;
             border: 1px solid blue;
             border-radius: 10px;
             padding: 10px;
@@ -32,6 +46,12 @@
         <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae facere delectus, similique animi blanditiis eveniet magnam fuga ratione. Sit et sunt asperiores quisquam quod quo repudiandae porro, enim ea nam!
 
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus qui unde beatae nobis sequi ut mollitia cupiditate molestiae quod, voluptate suscipit dolorem? Soluta dolore itaque corporis minima quod quae ratione.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus qui unde beatae nobis sequi ut mollitia cupiditate molestiae quod, voluptate suscipit dolorem? Soluta dolore itaque corporis minima quod quae ratione.
         </p>
         <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus qui unde beatae nobis sequi ut mollitia cupiditate molestiae quod, voluptate suscipit dolorem? Soluta dolore itaque corporis minima quod quae ratione.
